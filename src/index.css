@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+/* Pagination styling */
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.container{
+  padding: 0 6em;
+}
+
+.hero-banner{
+  background-image: url('./assets/Banners/HeroBanner.png');
+
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 4em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 2em;
+        margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    padding: 0;
+  }
+}
+
+
+
