@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Profile from "../../assets/user/Profile.jpg";
+import Profile from "../../assets/user/profile.jpg";
 import {
   FaBagShopping,
   FaUser,
