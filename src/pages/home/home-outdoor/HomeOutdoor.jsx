@@ -1,7 +1,7 @@
 // src/components/HomeOutdoor.jsx
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import HomeOutdoorBanner from "../../../assets/Banners/home-outdoor.jpg"; // Adjust the path as necessary
+import HomeOutdoorBanner from "../../../assets/banners/home-outdoor.jpg"; // Adjust the path as necessary
 import { Link } from "react-router-dom";
 
 import { FaLongArrowAltRight } from "react-icons/fa";
